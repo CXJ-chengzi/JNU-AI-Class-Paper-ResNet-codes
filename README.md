@@ -22,3 +22,6 @@ numpy == 1.19.5 <br/>
 [6].He K, Zhang X, Ren S, et al. Identity Mappings in Deep Residual Networks[J]. arXiv preprint arXiv:1603.05027, 2016.<br/>
 [7].He K, Zhang X, Ren S, et al. Residual Networks Behave Like Ensembles of Relatively Shallow Networks[J]. arXiv preprint arXiv:1605.06431, 2016.<br/>
 [8].知乎.《Resnet到底在解决一个什么问题呢？》2019:https://www.zhihu.com/collection/742455948.<br/>
+[9].CSDN：https://blog.csdn.net/qq_41185868/article/details/82793025.<br/>
+[10].https://zhuanlan.zhihu.com/p/515734064.<br/>
+[11].https://blog.csdn.net/m0_64799972/article/details/132753608.<br/>
