@@ -34,10 +34,6 @@ pic_path='dataset'
 其他的文件visualization.p、evaluation.py、flowchart.py、performance_indicators.py可在数据加载完成和模型训练完成之后自行运行，都是可以直接运行的。<br/>
 如果训练时间过长，推荐选用好的电脑（因为有好的GPU可以大幅提升训练速度，笔者的电脑不太行，跑一次6h），或者一开始训练轮次epoch小一点，推荐100。如果仍然觉得时间过长，可以使用预训练模型，该模型是由Github作者ZOMIN提供的：<br/>
 百度云盘：https://pan.baidu.com/s/1yKXWWf1UEXS_gsWnM6sFDA 提取码：z66g。<br/>
-当然训练的时候要导入该预训练模型，可用下面的代码：<br/>
-```python
-model.load_state_dict(torch.load('checkpoint/resnet18_cifar10_ult.pt'))
-```
 
 #### 4 参考资料
 本人在学习人工智能相关知识，复现ResNet-18算法时，查阅了很多资料，包括但不限于以下列出的这些，在这里向这些论文和网络资料的作者表示特别的感谢，有你们我才能顺利完成我的课程论文。<br/>
