@@ -31,7 +31,7 @@ cutout.py用于cutout数据增强；readData.py用于读取数据；ResNet.py是
 pic_path='dataset'
 ```
 <br/>
-其他的文件visualization.py、evaluation.py、flowchart.py、performance_indicators.py可在数据加载完成和模型训练完成之后自行运行，都是可以直接运行的。<br/>
+其他的文件visualization.py、evaluation.py、flowchart.py、performance_indicators.py可在数据加载完成和模型训练完成之后可以选择自己想要的运行，都是可以直接运行的。<br/>
 如果训练时间过长，推荐选用好的电脑（因为有好的GPU可以大幅提升训练速度，笔者的电脑不太行，跑一次6h），或者一开始训练轮次epoch小一点，推荐100。如果仍然觉得时间过长，可以使用预训练模型，该模型是由Github作者ZOMIN提供的：<br/>
 百度云盘：https://pan.baidu.com/s/1yKXWWf1UEXS_gsWnM6sFDA 提取码：z66g。<br/>
 
